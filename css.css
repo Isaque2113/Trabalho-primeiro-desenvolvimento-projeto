@@ -1,0 +1,83 @@
+
+header{
+    background-image: linear-gradient(90deg,rgb(214, 0, 0),rgb(177, 3, 3));
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.input-pesquisa{
+    width: 50%;
+    padding: 4px;
+    border-radius: 6px;
+    margin: 7px;
+}
+.ul-links  {
+    text-decoration: none;
+    color: white;
+}
+.select-op{
+     background: rgb(255, 213, 213);
+     width: 80px;
+     border-radius: 30px;
+}
+.select-op:hover{
+    cursor: pointer;
+    box-shadow: 2px  2px 2px rgb(252, 40, 40);
+}
+.div-fimdemundo {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(190, 190, 190);
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgb(156, 156, 156);
+}
+.p-preço{
+    font-size: 14px;
+    color: gray;
+}
+.div-fimdemundo img{
+    border-radius: 50px;
+    width: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-fimdemundo a {
+    text-decoration: none;
+}
+.button-preço{
+    width: 200px;
+    height: auto;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.button-preço:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px red;
+}
+.comidas{
+    display: flex;
+    gap: 30px;
+}
+footer {
+  background: gray;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+main{
+    flex: 1;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  margin: 0;
+  background-attachment: fixed;
+}
